@@ -1,7 +1,4 @@
-![SwagLabs_E2E_suit](https://github.com/aseoaneo23/SwagLabsE2E/assets/145000901/a540e0b3-2fbb-4be0-a1f9-ab4b90b3e2c9)
 
-![Static Badge](https://img.shields.io/badge/PFC%20DAW-%20blue)
- ![Badge en Desarollo](https://img.shields.io/badge/STATUS-FINALIZADO-green) 
  ![Static Badge](https://img.shields.io/badge/NPM-v10.2.1-lightblue) 
  ![Static Badge](https://img.shields.io/badge/Node-v18.18-lightgreen)
  ![Static Badge](https://img.shields.io/badge/Cypress-v13.8.1-purple)
@@ -9,123 +6,14 @@
 
 # índice 
 1. [Descripción del Proyecto](#descripción-del-proyecto) ✍️
-2. [Estado del proyecto](#estado-del-proyecto) 💻
-3. [Estructura del proyecto](#estructura-del-proyecto) 🛫
-4. [Acceso al Proyecto](#acceso-al-proyecto) 🔑
 5. [Tecnologías utilizadas](#tecnologías-utilizadas) 🧰
 6. [Autor](#autor) 🧑‍💻
-7. [Licencia](#licencia) 🪪
+   
 
 
 # Descripción del Proyecto 
 
-Proyecto en desarrollo para trabajo de fin de ciclo de Desarrollo de Aplicaciones Web, basado en una *suite* de pruebas [E2E](https://qalified.com/es/blog/end-to-end-testing/). El objetivo es mostrar la utilidad de esta arquitectura de pruebas que cada vez toma más protagonismo en el mundo del quality assurance.
-
-Este proyecto se centra en la automatización de pruebas sobre la web de [Swag Labs](https://www.saucedemo.com/) la cual contiene funcionalidad adecuada para llevar a cabo un plan de testing de extremo a extremo.
-
-Se estudian las funcionalidades principales de cada página con el fin de asegurar el correcto funcionamiento de la interfaz por medio de tests que ayudan en la labor de [QA](https://ed.team/blog/que-es-y-que-hace-un-analista-qa).
-
-El vídeo publicitario del proyecto se puede encontrar en [Teaser](https://youtu.be/qxe6HxAC_p4?si=q6eVeTnfxYjiWVHT)
-
-
-# Estado del proyecto 
-
-🛫 Finalizado 🛬
-
-# Estructura del proyecto 
-
-SwagLabsE2E
-
-      ├── .gitignore
-      
-      ├── [cypress]
-          ├── constants.js
-         
-          ├── [downloads]
-          
-          ├── [features]
-              ├── cart_management.feature
-              ├── checkout.feature
-              ├── login.feature
-              ├── logout.feature
-              └── product_detail.feature
-              
-          ├── [fixtures]
-              └── example.json
-              
-          ├── [pages]
-              ├── cart_page.js
-              ├── checkout_page.js
-              ├── login_page.js
-              └── main_page.js
-              
-          ├── [plugins]
-              └── index.js
-              
-          ├── [screenshots]
-           
-              
-          └── [support]
-              ├── commands.js
-              ├── e2e.js
-              └── [step_definitions]
-                  ├── cart_management.js
-                  ├── checkout.js
-                  ├── login.js
-                  ├── logout.js
-                  └── product_detail.js
-                  
-      ├── cypress.config.js
-     
-      ├── package.json
-      └── README.md
-
-### Explicación de directorios
-
-- **.gitignore:** contiene los archivos que no deben ser subidos al repositorio
-  
-- **cypress:** contiene la estructura principal del proyecto cypress
-  - **constants.js:** archivo que contiene constantes utilizadas en las pruebas
-    
-  - **downloads:** carpeta para almacenar archivos descargados durante las pruebas (sin usar)
-    
-  - **features:** contiene los archivos de características para las pruebas BDD
-    - **cart_management.feature** 
-    - **checkout.feature**
-    - **login.feature**
-    - **logout.feature**
-    - **product_detail.feature**
-      
-  - **fixtures:** contiene datos de prueba estáticos (sin usar)
-    - **example.json**
-      
-  - **pages:** contiene los objetos de página utilizados en las pruebas
-    - **cart_page.js**
-    - **checkout_page.js** 
-    - **login_page.js**
-    - **main_page.js**
-      
-  - **plugins:** contiene los plugins personalizados de Cypress
-    - **index.js:** archivo principal de configuración de plugins
-      
-  - **screenshots:** carpeta para almacenar capturas de pantalla tomadas durante las pruebas
-    
-  - **support:** contiene archivos de soporte y configuraciones globales
-    - **commands.js:** define comandos personalizados de Cypress
-    - **e2e.js:** configuración y hooks globales de Cypress
-    - **step_definitions:** contiene las definiciones de pasos para las pruebas BDD
-      - **cart_management.js**
-      - **checkout.js**
-      - **login.js**
-      - **logout.js**
-      - **product_detail.js**
-        
-- **cypress.config.js:** archivo de configuración principal de Cypress
-  
-- **package.json:** archivo que contiene las dependencias del proyecto y scripts de npm
-  
-- **README.md:** archivo de documentación del proyecto
-
+Features prueba de automatización de feature follow, de usuarios no logueados en Twitch
 
 
 # Acceso al Proyecto
@@ -170,11 +58,4 @@ Para ejecutar las pruebas, escribe:
 |[<img src="https://avatars.githubusercontent.com/u/145000901?v=4" width=115><br><sub>Antonio Seoane de Ois</sub>](https://github.com/aseoaneo23)|
 | :---: | 
 
-# Licencia
-
-La licencia de este proyecto está enfocada en el marco educativo, por lo que sus uso se reserva a fines únicamente orientados a su evaluación.
-
-# Agradecimientos
-
-En esta sección quería agradecer el papel de mi empresa de prácticas, en concreto de mis responsables de QA, los cuales me han ayudado a establecer unos conocimientos firmes sobre buenas prácticas y manejo de herramientas.
 
